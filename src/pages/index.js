@@ -6,7 +6,7 @@ const IndexPage = () => {
       <div className="bg-customGray text-white">
         <div className="w-9/12 2xl:w-8/12 m-auto">
           {/* Navbar */}
-          <div className="flex pt-8">
+          <div className="pt-8 hidden sm:flex">
             {/* Title */}
             <div className="uppercase text-xl">Leo Zhang.</div>
             <div className="flex-grow"></div>
@@ -17,14 +17,14 @@ const IndexPage = () => {
             </div>
           </div>
           {/* Hero */}
-          <div className="w-9/12 2xl:w-6/12 m-auto flex flex-col py-32">
-            <div className="w-9/12">
-              <p className="text-6xl whitespace-pre-line">
+          <div className="sm:w-9/12 2xl:w-6/12 m-auto flex flex-col sm:py-32">
+            <div className="sm:w-9/12">
+              <p className="text-3xl sm:text-6xl whitespace-pre-line">
                 Hello! I'm Leo, an aspiring {"\n"} Software Developer.
               </p>
             </div>
-            <div className=" w-7/12 self-end">
-              <p className="text-large text-right whitespace-pre-line">
+            <div className="sm:w-7/12 sm:self-end">
+              <p className="sm:text-large sm:text-right whitespace-pre-line">
                 Born in New York, raised in Miami.{"\n"} Currently a freshman at Caltech
                 seeking a {"\n"}Computer Science degree.
               </p>
