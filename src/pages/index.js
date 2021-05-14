@@ -3,15 +3,16 @@ import * as React from "react"
 const IndexPage = () => {
   return (
     <main>
-      <div className="bg-customGray text-white">
+      <div className="bg-customGray text-white px-4">
         {/* Navbar */}
-        <div className="">
+        <div className="flex">
           {/* Title */}
-          <div className="">
-            Leo Zhang
+          <div className="uppercase text-xl">
+            Leo Zhang.
           </div>
-          {/* Project Cards */}
-          <div className="">
+          <div className="flex-grow"></div>
+          {/* Navbar items */}
+          <div className="flex items-center">
             <div className="">
               Portfilo
             </div>
