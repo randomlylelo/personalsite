@@ -4,9 +4,9 @@ const IndexPage = () => {
   return (
     <main>
       <div className="bg-customGray text-white">
-        <div className="w-9/12 m-auto">
+        <div className="w-9/12 2xl:w-8/12 m-auto">
           {/* Navbar */}
-          <div className="flex py-8">
+          <div className="flex pt-8">
             {/* Title */}
             <div className="uppercase text-xl">Leo Zhang.</div>
             <div className="flex-grow"></div>
@@ -16,10 +16,8 @@ const IndexPage = () => {
               <div className="pl-4">Contact</div>
             </div>
           </div>
-          {/* Space */}
-          <div className=" pt-8"></div>
           {/* Hero */}
-          <div className=" w-9/12 m-auto flex flex-col">
+          <div className="w-9/12 2xl:w-6/12 m-auto flex flex-col py-32">
             <div className="w-9/12">
               <p className="text-6xl whitespace-pre-line">
                 Hello! I'm Leo, an aspiring {"\n"} Software Developer.
