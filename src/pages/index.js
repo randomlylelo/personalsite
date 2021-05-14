@@ -21,14 +21,14 @@ const IndexPage = () => {
           {/* Hero */}
           <div className=" w-9/12 m-auto flex flex-col">
             <div className="w-9/12">
-              <p className="text-6xl">
-                Hello! I'm Leo, an aspiring Software Developer.
+              <p className="text-6xl whitespace-pre-line">
+                Hello! I'm Leo, an aspiring {"\n"} Software Developer.
               </p>
             </div>
             <div className=" w-7/12 self-end">
-              <p className="text-large text-right">
-                Born in New York, raised in Miami. Currently a freshman at Caltech
-                seeking a Computer Science degree.
+              <p className="text-large text-right whitespace-pre-line">
+                Born in New York, raised in Miami.{"\n"} Currently a freshman at Caltech
+                seeking a {"\n"}Computer Science degree.
               </p>
             </div>
           </div>
